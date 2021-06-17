@@ -1,19 +1,34 @@
-Frontend :
-Le frontend est développé avec VueJS.
-Dans dossier frontend executer "npm install"
-Puis "npm run serve".
+# Création d'un réseau social d'entreprise pour Groupomania. (projet OpenClassrooms)
+
+## prérequis
+
+* Installer Node.js
+* Installer Vue.js
+* Installer MySQL
 
 
-Backend :
-Le backend est développé avec NodeJS, Express, Sequelize et Mysql. L'installation de ces derniers  est requise sur votre ordinateur.
-Dans dossier backend executer "nodemon ou node server".
+## Installation et démarrage du Backend
+
+* Ouvrez votre terminal
+* Allez dans le dossier backend : `cd API_Groupomania\api` .
+* Installez toutes les dépendances du projet : `npm install`.
+* Démarrez le serveur Node.js : `nodemon server`.
 
 
-Base de données :
-La base de données est développé avec Mysql
-Créez une base de données nommée "groupomania" dans votre base de données mysql.
-executez ensuite dans le backend la commande "sequelize db:migrate".
+## Installation et démarrage de la BDD MySQL
+
+* Ouvrez votre terminal
+* Connectez-vous à MySQL : `mysql -h localhost -u root -p`.
+* Créez une base de données nommé `groupomania`.
+* Executez ensuite dans le backend la commande `sequelize db:migrate`.
 
 
+## Installation et démarrage du Frontend
 
+* Ouvrez votre terminal
+* Allez dans le dossier frontend : `cd VUE_Groupomania\app` .
+* Installez toutes les dépendances du projet : `npm install`.
+* Démarrez l'application : `npm run serve`.
 
+## Testez l'application
+* Ouvrez votre navigateur et allez sur : `http://localhost:8080/`.
