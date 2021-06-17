@@ -1,4 +1,5 @@
-# Création d'un réseau social d'entreprise pour Groupomania. (projet OpenClassrooms)
+# Création d'un réseau social d'entreprise pour Groupomania. 
+(projet OpenClassrooms)
 
 ## prérequis
 
